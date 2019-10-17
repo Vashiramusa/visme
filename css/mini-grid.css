@@ -70,27 +70,27 @@ body {
 
 .item {
   flex: 1 0 auto;
-  background: red;
+  
 }
 
 .item-small-1 {
   flex: 0 0 calc((100% / 4));
-  background: red;
+  
 }
 
 .item-small-2 {
   flex: 0 0 calc((100% / 2));
-  background: red;
+  
 }
 
 .item-small-3 {
   flex: 0 0 calc((100% / 2) + (100% / 4));
-  background: red;
+  
 }
 
 .item-small-4 {
   flex: 0 0 calc(100% - 4px);
-  background: red;
+  
 }
 
 @media screen and (min-width: 720px) {
@@ -136,62 +136,62 @@ body {
 
   .item-medium-1 {
     flex: 0 0 calc((100% / 12));
-    background: red;
+    
   }
 
   .item-medium-2 {
     flex: 0 0 calc((100% / 12) * 2);
-    background: red;
+    
   }
 
   .item-medium-3 {
     flex: 0 0 calc((100% / 12) * 3);
-    background: red;
+    
   }
 
   .item-medium-4 {
     flex: 0 0 calc((100% / 12) * 4);
-    background: red;
+    
   }
 
   .item-medium-5 {
     flex: 0 0 calc((100% / 12) * 5);
-    background: red;
+    
   }
 
   .item-medium-6 {
     flex: 0 0 calc((100% / 12) * 6);
-    background: red;
+    
   }
 
   .item-medium-7 {
     flex: 0 0 calc((100% / 12) * 7);
-    background: red;
+    
   }
 
   .item-medium-8 {
     flex: 0 0 calc((100% / 12) * 8);
-    background: red;
+    
   }
 
   .item-medium-9 {
     flex: 0 0 calc((100% / 12) * 9);
-    background: red;
+    
   }
 
   .item-medium-10 {
     flex: 0 0 calc((100% / 12) * 10);
-    background: red;
+    
   }
 
   .item-medium-11 {
     flex: 0 0 calc((100% / 12) * 11);
-    background: red;
+    
   }
 
   .item-medium-12 {
     flex: 0 0 100%;
-    background: red;
+    
   }
 }
 
@@ -238,61 +238,61 @@ body {
 
   .item-large-1 {
     flex: 0 0 calc((100% / 12));
-    background: red;
+    
   }
 
   .item-large-2 {
     flex: 0 0 calc((100% / 12) * 2);
-    background: red;
+    
   }
 
   .item-large-3 {
     flex: 0 0 calc((100% / 12) * 3);
-    background: red;
+    
   }
 
   .item-large-4 {
     flex: 0 0 calc((100% / 12) * 4);
-    background: red;
+    
   }
 
   .item-large-5 {
     flex: 0 0 calc((100% / 12) * 5);
-    background: red;
+    
   }
 
   .item-large-6 {
     flex: 0 0 calc((100% / 12) * 6);
-    background: red;
+    
   }
 
   .item-large-7 {
     flex: 0 0 calc((100% / 12) * 7);
-    background: red;
+    
   }
 
   .item-large-8 {
     flex: 0 0 calc((100% / 12) * 8);
-    background: red;
+    
   }
 
   .item-large-9 {
     flex: 0 0 calc((100% / 12) * 9);
-    background: red;
+    
   }
 
   .item-large-10 {
     flex: 0 0 calc((100% / 12) * 10);
-    background: red;
+    
   }
 
   .item-large-11 {
     flex: 0 0 calc((100% / 12) * 11);
-    background: red;
+    
   }
 
   .item-large-12 {
     flex: 0 0 100%;
-    background: red;
+    
   }
 }
