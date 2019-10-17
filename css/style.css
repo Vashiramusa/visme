@@ -87,6 +87,48 @@
   height: 25px;
 }
 
+.visual {
+  padding-top: 33px;
+  padding-left: 15px;
+}
+
+.visual>h2 {
+  margin-top: 15px;
+  font-size: 30px;
+  color: #1cacd7;
+}
+
+.span-resource {
+  font-size: 20px;
+}
+
+.img-span {
+  margin-top: 17px;
+}
+
+.img {
+ height: 100%;
+ color: #2c3142;
+}
+
+.h4-span {
+  padding: 20px;
+  margin: 0 15px 24px;
+  box-shadow: 0 0 17px 3px rgba(184,184,184,.5);
+  background: #fff;
+}
+
+.h4-span >h4 {
+  font-size: 18px;
+  color: #2c3142;
+  margin-bottom: 10px;
+}
+
+.span-read >a {
+  font-size: 18px;
+  color: #2c3142;
+}
+
 @media screen and (min-width: 1180px) {
   .hamburger {
     display: none;
