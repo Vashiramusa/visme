@@ -147,6 +147,47 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.feature-h2 {
+  margin: 0 15px 20px;
+}
+
+.feature-h2 >a {
+  font-size: 28px;
+  color: #2b313f;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.image-h3 {
+  padding: 0 15px;
+  margin-bottom: 35px;
+}
+
+.image-h3 >h3 {
+   font-size: 19px;
+   margin: 23px 0 10px;
+   font-weight: 400;
+   font-family: 'Lato', sans-serif;
+}
+
+.image-h3 >h3:hover {
+  color: #1CACD7 ;
+}
+
+.img-container-item {
+  display: block;
+  transition: 0.6s transform ease-in-out;
+}
+
+.img-presentation-item:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.img-container-item {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
 @media screen and (min-width: 1180px) {
   .hamburger {
     display: none;
@@ -187,4 +228,6 @@
   .box > h4 {
     font-size: 24px;
   }
+
+
  }
