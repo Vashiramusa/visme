@@ -1,0 +1,298 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.margin {
+  margin: 4px;
+}
+
+.margin-left {
+  margin-left: 4px;
+}
+
+.margin-right {
+  margin-right: 4px;
+}
+
+.margin-top {
+  margin-top: 4px;
+}
+
+.margin-bottom {
+  margin-bottom: 4px;
+}
+
+.padding {
+  padding: 4px;
+}
+
+.padding-left {
+  padding-left: 4px;
+}
+
+.padding-right {
+  padding-right: 4px;
+}
+
+.padding-top {
+  padding-top: 4px;
+}
+
+.padding-bottom {
+  padding-bottom: 4px;
+}
+
+.main-container {
+  width: 95%;
+  margin: auto;
+  height: 100%;
+  max-width: 1200px;
+}
+
+.container {
+  display: flex;
+  margin-bottom: 56px;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex: 1 0 auto;
+  background: red;
+}
+
+.item-small-1 {
+  flex: 0 0 calc((100% / 4));
+  background: red;
+}
+
+.item-small-2 {
+  flex: 0 0 calc((100% / 2));
+  background: red;
+}
+
+.item-small-3 {
+  flex: 0 0 calc((100% / 2) + (100% / 4));
+  background: red;
+}
+
+.item-small-4 {
+  flex: 0 0 calc(100% - 4px);
+  background: red;
+}
+
+@media screen and (min-width: 720px) {
+  .margin {
+    margin: 16px;
+  }
+
+  .margin-left {
+    margin-left: 16px;
+  }
+
+  .margin-right {
+    margin-right: 16px;
+  }
+
+  .margin-top {
+    margin-top: 16px;
+  }
+
+  .margin-bottom {
+    margin-bottom: 16px;
+  }
+
+  .padding {
+    padding: 16px;
+  }
+
+  .padding-left {
+    padding-left: 16px;
+  }
+
+  .padding-right {
+    padding-right: 16px;
+  }
+
+  .padding-top {
+    padding-top: 16px;
+  }
+
+  .padding-bottom {
+    padding-bottom: 16px;
+  }
+
+  .item-medium-1 {
+    flex: 0 0 calc((100% / 12));
+    background: red;
+  }
+
+  .item-medium-2 {
+    flex: 0 0 calc((100% / 12) * 2);
+    background: red;
+  }
+
+  .item-medium-3 {
+    flex: 0 0 calc((100% / 12) * 3);
+    background: red;
+  }
+
+  .item-medium-4 {
+    flex: 0 0 calc((100% / 12) * 4);
+    background: red;
+  }
+
+  .item-medium-5 {
+    flex: 0 0 calc((100% / 12) * 5);
+    background: red;
+  }
+
+  .item-medium-6 {
+    flex: 0 0 calc((100% / 12) * 6);
+    background: red;
+  }
+
+  .item-medium-7 {
+    flex: 0 0 calc((100% / 12) * 7);
+    background: red;
+  }
+
+  .item-medium-8 {
+    flex: 0 0 calc((100% / 12) * 8);
+    background: red;
+  }
+
+  .item-medium-9 {
+    flex: 0 0 calc((100% / 12) * 9);
+    background: red;
+  }
+
+  .item-medium-10 {
+    flex: 0 0 calc((100% / 12) * 10);
+    background: red;
+  }
+
+  .item-medium-11 {
+    flex: 0 0 calc((100% / 12) * 11);
+    background: red;
+  }
+
+  .item-medium-12 {
+    flex: 0 0 100%;
+    background: red;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .margin {
+    margin: 30px;
+  }
+
+  .margin-left {
+    margin-left: 30px;
+  }
+
+  .margin-right {
+    margin-right: 30px;
+  }
+
+  .margin-top {
+    margin-top: 30px;
+  }
+
+  .margin-bottom {
+    margin-bottom: 30px;
+  }
+
+  .padding {
+    padding: 30px;
+  }
+
+  .padding-left {
+    padding-left: 30px;
+  }
+
+  .padding-right {
+    padding-right: 30px;
+  }
+
+  .padding-top {
+    padding-top: 30px;
+  }
+
+  .padding-bottom {
+    padding-bottom: 30px;
+  }
+
+  .item-large-1 {
+    flex: 0 0 calc((100% / 12));
+    background: red;
+  }
+
+  .item-large-2 {
+    flex: 0 0 calc((100% / 12) * 2);
+    background: red;
+  }
+
+  .item-large-3 {
+    flex: 0 0 calc((100% / 12) * 3);
+    background: red;
+  }
+
+  .item-large-4 {
+    flex: 0 0 calc((100% / 12) * 4);
+    background: red;
+  }
+
+  .item-large-5 {
+    flex: 0 0 calc((100% / 12) * 5);
+    background: red;
+  }
+
+  .item-large-6 {
+    flex: 0 0 calc((100% / 12) * 6);
+    background: red;
+  }
+
+  .item-large-7 {
+    flex: 0 0 calc((100% / 12) * 7);
+    background: red;
+  }
+
+  .item-large-8 {
+    flex: 0 0 calc((100% / 12) * 8);
+    background: red;
+  }
+
+  .item-large-9 {
+    flex: 0 0 calc((100% / 12) * 9);
+    background: red;
+  }
+
+  .item-large-10 {
+    flex: 0 0 calc((100% / 12) * 10);
+    background: red;
+  }
+
+  .item-large-11 {
+    flex: 0 0 calc((100% / 12) * 11);
+    background: red;
+  }
+
+  .item-large-12 {
+    flex: 0 0 100%;
+    background: red;
+  }
+}
