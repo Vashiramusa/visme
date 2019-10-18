@@ -75,7 +75,7 @@
   text-decoration: none;
   color: #2b2b2b;
   font-family: 'Montserrat', sans-serif;
-  transition: .5s color ease-in-out;
+  transition: .3s color ease-in-out;
 }
 
 .menu-item > li > a:hover {
@@ -118,10 +118,12 @@
   height: 100%;
   display: block;
   transition: 0.6s transform ease-in-out;
+  object-fit: cover;
 }
 
 .img-presentation:hover {
   transform: scale(1.2, 1.2);
+  cursor: pointer;
 }
 
 .box {
@@ -136,7 +138,7 @@
   color: #2c3142;
   margin-bottom: 10px;
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-weight: 700;
 }
 
 .span-read > a {
@@ -163,24 +165,37 @@
   margin-bottom: 35px;
 }
 
-.image-h3 >h3 {
+.image-h3 > h3 {
    font-size: 19px;
    margin: 23px 0 10px;
    font-weight: 400;
    font-family: 'Lato', sans-serif;
+   transition: 0.3s color ease-in-out;
 }
 
-.image-h3 >h3:hover {
+.image-h3 > h3:hover {
   color: #1CACD7 ;
 }
 
 .img-container-item {
   display: block;
-  transition: 0.6s transform ease-in-out;
 }
 
-.img-presentation-item:hover {
+.img-presentation-item {
+  transition: 0.6s transform ease-in-out;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.image-h3:hover .img-presentation-item{
   transform: scale(1.2, 1.2);
+  cursor: pointer;
+}
+
+.image-h3:hover > h3 {
+  color: #1cacd7;
+  cursor: pointer;
 }
 
 .img-container-item {
@@ -205,16 +220,16 @@
     display: flex;
   }
 
-  .img-container {
-    width: 80%;
+  .presentation {
     position: relative;
+    width: 80%;
   }
 
   .box-container {
     position: absolute;
-    right: 160px;
     width: 320px;
-    top: 70%;
+    top: calc(50% - 80px);
+    right: -160px
   }
 
   .visual > h2 {
@@ -229,5 +244,7 @@
     font-size: 24px;
   }
 
-
+  .main-info {
+    margin-top: 92px;
+  }
  }
